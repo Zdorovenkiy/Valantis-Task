@@ -1,0 +1,50 @@
+.pagination {
+    background: black;
+    border-top: 1px white solid;
+}
+
+.pagination__container {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 15px;  
+  
+    padding: 12px;
+    max-width: 650px;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .selected a {
+    border: 1px #535bf2 solid;
+    color: #535bf2;
+  }
+  
+  .disabled a {
+    border: 1px #535bf2 solid;
+    color: #535bf2;
+  }
+  
+  li a {
+    border: 1px white solid;
+    min-width: 20px;
+    padding: 12px;
+    color: white;
+    border-radius: 12px;
+    display: block;
+    font-size: 18px;
+    background: black;
+  }
+  
+  li a:hover {
+    border: 1px #535bf2 solid;
+  
+  }

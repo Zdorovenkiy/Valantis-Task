@@ -1,0 +1,67 @@
+  .filter {
+    display: none;
+  }
+
+  .filter_modal {
+    display: block;
+    position: absolute;
+    top: 68px;
+    left: -110px;
+    padding: 0 15px;
+    border-radius: 0 0 12px 12px;
+    background: black;
+    border: 1px white solid;
+    border-top: none;
+  }
+  
+  .filter__container {
+    display: flex;
+    gap: 30px;
+    max-width: 1280px;
+    width: 100%;
+    margin: 24px auto;
+  }
+  
+  .brand {
+    display: flex;
+  }
+  
+  .brand__input {
+    height: 30px;
+    width: 180px;
+    border-radius: 12px 0 0 12px;
+    outline:none;
+    padding: 0 10px;
+    border: 1px white solid;
+    font-size: 18px;
+  }
+  
+  .brand__button {
+    height: 32px;
+    border-radius: 0 12px 12px 0;
+    border: 1px white solid;
+    font-size: 18px;
+    padding: 0 10px;
+  }
+  
+  .price {
+    display: flex;
+  }
+
+  .price__input {
+    height: 30px;
+    width: 180px;
+    border-radius: 12px 0 0 12px;
+    outline:none;
+    padding: 0 10px;
+    border: 1px white solid;
+    font-size: 18px;
+  }
+  
+  .price__button {
+    height: 32px;
+    border-radius: 0 12px 12px 0;
+    border: 1px white solid;
+    font-size: 18px;
+    padding: 0 10px;
+  }
